@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.pytest_cache/
+*.db
+backend/waste_management.db
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Uploads (ignore runtime uploads except sample)
+backend/uploads/*
+!backend/uploads/sample_waste_dump.jpg
+!backend/uploads/.gitkeep
+
+# OS
+Thumbs.db
+.DS_Store
